@@ -1,0 +1,83 @@
+/* * Font Stack - Uncomment & Use * */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+/* Colours for each box */
+.box1 { background:#1abc9c;}
+.box2 { background:#3498db;}
+.box3 { background:#9b59b6;}
+.box4 { background:#34495e;}
+.box5 { background:#f1c40f;}
+.box6 { background:#e67e22;}
+.box7 { background:#e74c3c;}
+.box8 { background:#bdc3c7;}
+.box9 { background:#2ecc71;}
+.box10 { background:#16a085;}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #masterContainer {
+    border: 2px solid goldenrod;
+} */
+
+.gold {
+    background: #fc3;
+    background-color: #fc3;
+}
+
+#mainRow {
+    margin: 1.875rem 0;
+}
+
+#box1{
+background-color: #fc3;
+box-sizing: border-box;
+box-shadow: 5px 5px 1px #333;
+border: 2px solid goldenrod;
+}
+
+#box2 {
+background-color: aquamarine;
+box-sizing: border-box;
+box-shadow: 5px 5px 1px #333;
+border: 2px solid aqua;
+}
+
+.hrGoldenrod {
+    width: 400px;
+    background-color: mistyrose;
+    box-shadow: 0 4px 2px 0 #333;
+}
+
+.rowmarker {
+    border: 1px solid red;
+}
+
+#btnPushdown {
+    margin-top: 20px;
+}
+
+#rowPushdown {
+    margin-top: 20px;
+}
+
+#materialForm {
+    border: 1px solid goldenrod;
+    padding: 20px;
+}
+
+.marker {
+    border: 2px dashed red;
+}
+
+.h5lowMarginFix {
+    margin-bottom: 0;
+}
+
+.rowPushdown {
+    margin-bottom: 25px;
+}

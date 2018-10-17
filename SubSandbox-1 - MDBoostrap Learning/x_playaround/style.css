@@ -1,0 +1,56 @@
+/* * Font Stack - Uncomment & Use * */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+.containerMarker {
+    border: 2px solid orange;
+}
+
+.rowMarker {
+    border: 2px dashed salmon;
+}
+
+.markerOne {
+    border: 1px dotten blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 768px) {}
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {}
