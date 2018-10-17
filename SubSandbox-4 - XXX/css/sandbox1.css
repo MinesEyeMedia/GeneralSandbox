@@ -1,0 +1,79 @@
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.master--container {
+    margin-top: 1.25rem;
+    /* 20px; */
+    border: 2px solid brown;
+    text-align: center;
+}
+
+
+/* * Visual Markers * */
+.marker1 {
+    border: 2px solid mistyrose;
+}
+
+.marker2 {
+    border: 2px solid goldenrod;
+}
+
+.marker3 {
+    border: 2px solid slategray;
+}
+
+.flex-container {
+    background: pink;
+    height: 60vh;
+    width: 70vw;
+    padding: 0.5em;
+    margin: 15vh auto 0;
+
+    /* ?Flexbox CONTAINER Properties? */
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* * flex-flow is a a combination of flex-direction and flex-wrap in shorthand* */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.flex--item {
+    background: lightblue;
+    margin: 0.5em;
+    padding: 1.25rem;
+
+    /* ?Flex ITEM Properties? */
+    /* * Flex Grow: higher priority means that element will consume more space in a higher priority.  */
+    /* flex-grow: ; */
+    /* flex-shrink: ; */
+    /* flex-basis: ; */
+    /* order ; */
+    /* align-self ; */
+    /* * Flex: short hand for flex-grow, flex-shrink and flex-basis. Written in that order such as '2 2 250px;'.  * */
+    /* flex: ; */
+
+}
+
+.box--one {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+}
+
+.box--two {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+}
+
+.box--three {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 250px;
+}
